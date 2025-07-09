@@ -1,0 +1,16 @@
+Topics to be covered:
+
+1. About Python
+2. Data Types
+3. Variables, Keywords and Identifiers
+4. Python in/outputs
+5. If/Else Statements
+
+
+Why Python:
+
+1. Desgin Philosophy(easy language, readable)
+2. Batteries Included(functions and operators are predefined)
+3. General Purpose(modular, OOps, web, data science, etc)
+4. Community of python is so large.
+
