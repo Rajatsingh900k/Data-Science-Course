@@ -139,3 +139,35 @@ print(type(x))  # This will print <class 'str'>, indicating that x is a string.
 # You can also use the isinstance() function to check if a variable is of a specific type.
 print(isinstance(x, str))  # This will print True, indicating that x is a string.
 print(isinstance(x, int))  # This will print False, indicating that x is not an integer.
+
+#static typing 
+# Python does not enforce static typing, but you can use type hints to indicate the expected type of a variable or function parameter.
+# For example: int a=5
+# This indicates that the variable a is expected to be an integer.
+
+
+#dynamic binding 
+# Dynamic binding is a feature of Python that allows you to change the type of a variable at runtime.
+# This means that you can assign a value of any type to a variable, and the type of the variable will change accordingly.
+# For example:
+x = 5  # This creates a variable named x and assigns the value 5 to it.
+print(type(x))  # This will print <class 'int'>, indicating that x is an integer.
+x = "Hello"  # This changes the type of x to a string.
+print(type(x))  # This will print <class 'str'>, indicating that x is now a string.
+# You can also use the isinstance() function to check if a variable is of a specific type
+print(isinstance(x, str))  # This will print True, indicating that x is a string.
+print(isinstance(x, int))  # This will print False, indicating that x is not an integer.
+# this is called dynamic binding because the type of the variable is determined at runtime based on the value assigned to it.
+# In Python, you can also use type hints to indicate the expected type of a variable or function parameter.
+
+# c/c++ and java follow static binding 
+# where the type of a variable is determined at compile time and cannot be changed at runtime.
+# In Python, you can use type hints to indicate the expected type of a variable or function parameter, but it is not enforced by the interpreter.
+
+
+# some ways to create variables in python
+# 1. Using the assignment operator
+x = 5  # This creates a variable named x and assigns the value 5 to it.
+x=y=z=5  # This creates three variables x, y, and z and assigns the value 5 to them.
+# 2. assigning multiple variables in a single line
+a, b, c = 1, 2, 3  # This creates three variables a, b, and c and assigns the values 1, 2, and 3 to them respectively.
