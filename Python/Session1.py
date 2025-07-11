@@ -117,3 +117,25 @@ my_tuple = (1, 2, 3)
 print(my_tuple)  # This will print (1, 2, 3)
 # The main difference between a list and a tuple is that a list is mutable (can be changed) while a tuple is immutable (cannot be changed).
 # You can also use the type() function to check the type of a variable. 
+
+
+#variable# A variable is a name that refers to a value. You can create a variable by assigning a value to a name using the assignment operator (=).
+# For example:
+x = 5  # This creates a variable named x and assigns the value 5 to it.
+y = "Hello"  # This creates a variable named y and assigns the value "Hello" to it.
+# You can also create multiple variables in a single line by separating them with commas.
+a, b, c = 1, 2, 3  # This creates three variables a, b, and c and assigns the values 1, 2, and 3 to them respectively.
+# You can also create a variable without assigning a value to it, but it will be None by default.
+d = None  # This creates a variable named d and assigns the value None to it.
+
+#dynamic typing
+# Python is dynamically typed, which means you can change the type of a variable at runtime.
+x = 5  # This creates a variable named x and assigns the value 5 to it.
+print(type(x))  # This will print <class 'int'>, indicating that x is an integer.
+x = "Hello"  # This changes the type of x to a string.
+print(type(x))  # This will print <class 'str'>, indicating that x is now a string.
+# You can also use the type() function to check the type of a variable.
+print(type(x))  # This will print <class 'str'>, indicating that x is a string.
+# You can also use the isinstance() function to check if a variable is of a specific type.
+print(isinstance(x, str))  # This will print True, indicating that x is a string.
+print(isinstance(x, int))  # This will print False, indicating that x is not an integer.
