@@ -171,3 +171,32 @@ x = 5  # This creates a variable named x and assigns the value 5 to it.
 x=y=z=5  # This creates three variables x, y, and z and assigns the value 5 to them.
 # 2. assigning multiple variables in a single line
 a, b, c = 1, 2, 3  # This creates three variables a, b, and c and assigns the values 1, 2, and 3 to them respectively.
+
+# keywords and identifiers
+# Keywords are reserved words in Python that have a special meaning and cannot be used as variable names
+# Identifiers are names that you create for variables, functions, classes, etc.
+# Identifiers must start with a letter (a-z, A-Z) or an underscore (_), followed by letters, digits (0-9), or underscores.
+# Identifiers are case-sensitive, meaning that myVariable and myvariable are considered different identifiers.
+# Here are some examples of valid identifiers:
+my_variable = 5  # This is a valid identifier.
+myVariable = 10  # This is also a valid identifier.
+my_variable_2 = 15  # This is also a valid identifier.
+_my_variable = 20  # This is also a valid identifier, starting with an underscore.
+# Here are some examples of invalid identifiers:
+# 2my_variable = 25  # This is invalid because it starts with a digit.
+# my-variable = 30  # This is invalid because it contains a hyphen (-).
+# my variable = 35  # This is invalid because it contains a space.
+# Python has a set of reserved keywords that cannot be used as identifiers.
+# Here is a list of Python keywords:
+import keyword
+print(keyword.kwlist)  # This will print the list of Python keywords.
+# Static typing, dynamic binding, and variable creation in Python
+# Static typing refers to the ability to specify the type of a variable at compile time, which
+# is not enforced in Python. Python is dynamically typed, meaning that the type of a variable can change at runtime.
+# Dynamic binding refers to the ability to change the type of a variable at runtime, which is
+# a feature of Python. This means that you can assign a value of any type to a variable, and the type of the variable will change accordingly.
+# Variable creation in Python is done using the assignment operator (=), and you can create variables of
+# different types without specifying the type explicitly. Python will automatically determine the type of the variable based on the value assigned to it.
+# In summary, Python is dynamically typed and supports dynamic binding, allowing for flexible variable creation without the need for static typing.
+# Python does not enforce static typing, but you can use type hints to indicate the expected type of a variable or function parameter.
+
