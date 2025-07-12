@@ -200,3 +200,72 @@ print(keyword.kwlist)  # This will print the list of Python keywords.
 # In summary, Python is dynamically typed and supports dynamic binding, allowing for flexible variable creation without the need for static typing.
 # Python does not enforce static typing, but you can use type hints to indicate the expected type of a variable or function parameter.
 
+# Taking input from the user
+name = input('Enter your name: ')  # This will take input from the user and assign it to the variable name.
+print(f"Hello, {name}!")  # This will print "Hello, <name>!" to the console.
+
+# You can also take input from the user and convert it to a specific type using the int(), float(), or str() functions.
+age = int(input('Enter your age: '))  # This will take input from the user, convert it to an integer, and assign it to the variable age.
+print(f"You are {age} years old.")  # This will print "You are <age> years old." to the console.
+
+x = float(input('Enter a number: '))  # This will take input from the user, convert it to a float, and assign it to the variable x.
+y = float(input('Enter another number: '))  # This will take input from the user, convert it to a float, and assign it to the variable y.
+print(f"The sum of {x} and {y} is {int(x + y)}.")  # This will print the sum of x and y to the console.
+# Note: input takes input as a string by default, so you need to convert it to the desired type using int(), float(), or str() functions.
+
+# Type conversion
+# You can convert between different data types using the built-in functions like int(), float(), str(), list(), tuple(), dict(), set(), and frozenset().
+# For example, you can convert a string to an integer using the int() function:
+num_str = "42"  # This is a string representation of a number.
+num_int = int(num_str)  # This converts the string to an integer.
+print(num_int)  # This will print 42 as an integer.
+# You can also convert an integer to a string using the str() function:
+num_int = 42  # This is an integer.
+num_str = str(num_int)  # This converts the integer to a string.
+print(num_str)  # This will print "42" as a string.
+# You can also convert a float to an integer using the int() function:
+num_float = 3.14  # This is a float.
+num_int = int(num_float)  # This converts the float to an integer, truncating the decimal part.
+print(num_int)  # This will print 3 as an integer.
+# You can also convert a float to a string using the str() function:
+num_float = 3.14  # This is a float.
+num_str = str(num_float)  # This converts the float to a string.
+print(num_str)  # This will print "3.14" as a string.
+
+
+# Python Literals
+# Python literals are the fixed values that you can assign to variables. They can be of various
+# types, including numeric, string, boolean, and special literals.
+# Here are some examples of Python literals:
+# Numeric literals
+num_int = 42  # This is an integer literal.
+num_float = 3.14  # This is a float literal.
+num_complex = 2 + 3j  # This is a complex number literal.
+# String literals
+str_literal = "Hello, World!"  # This is a string literal.
+# basically the value that is stored in a variable is called a literal.
+str_literal2 = 'Python is awesome!'  # This is another string literal.
+
+# there are various ways to create literals in python
+# 1. Binary literals
+binary_literal = 0b1010  # This is a binary literal representing the decimal value
+# 2. Decimal literals
+decimal_literal = 42  # This is a decimal literal representing the integer value 42.
+# 3. Octal literals
+octal_literal = 0o52  # This is an octal literal representing the decimal value 42.
+# 4. Hexadecimal literals
+hexadecimal_literal = 0x2A  # This is a hexadecimal literal representing the decimal value 42.
+# Boolean literals
+bool_true = True  # This is a boolean literal representing the value True.
+bool_false = False  # This is a boolean literal representing the value False.
+# Special literals
+none_literal = None  # This is a special literal representing the absence of a value
+# float literals
+float_literal = 3.14  # This is a float literal representing the decimal value
+float_literal2 = 2.7e2  # This is a float literal in scientific notation representing the value 270.0. this is scientific notation
+float_literal3 = 1.5e-3  # This is a float literal in scientific notation representing the value 0.0015.
+# complex literals
+complex_literal = 2 + 3j  # This is a complex literal representing the complex
+print(complex_literal.real, complex_literal.imag)  # This will print the real and imaginary parts of the complex number.)
+
+
