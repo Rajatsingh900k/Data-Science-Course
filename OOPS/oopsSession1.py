@@ -101,3 +101,53 @@ class ATM:
 
 newUser=ATM()
 newUser
+
+
+# methods vs funtions
+# function inside a class is called method and outside it is called function.
+# class diagram:- class can be represented using a diagram
+################################
+#         ATM                  #
+################################
+#       +  Data                #
+#       -                      #
+################################ 
+#                              #
+#                              #                     
+#                              #
+#                              #
+#                              #
+#     +      mehtods           #
+#     -                        #
+#                              #
+#                              #
+#                              #
+#                              #
+#      +=>Public               #
+#      -=>private              #
+#                              #
+################################
+
+
+# Magic methods
+# A magic method is a special kind of method syntax= __nameOfMethod__()
+# they have some special functionality
+
+# example: __init__()
+
+# constructor is a magicMethod, it doesn't need to be called it gets triggered automatically 
+# as sson as the object of the class
+# is created.
+# contructor helps to initialise the data and methods.
+#  There are more than 150 magic Methods
+# you cannot change the name of the constructor.
+
+# self is a reference to the current instance of the class.
+# It is used to access variables that belong to the class.
+# It does not have to be named self, but it is a strong convention to use this name.
+# self is used to access the attributes and methods of the class in Python.
+# It binds the attributes with the given arguments.
+# self is the first parameter of the method, it refers to the instance of the class.
+# It is used to access variables that belong to the class.
+# self is used to differentiate between instance variables and local variables.
+# It is used to access the attributes and methods of the class in Python.
